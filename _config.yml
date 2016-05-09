@@ -1,0 +1,103 @@
+# Site settings
+title: Liyf  Blog
+SEOTitle: 李__的博客 | Liyf Blog
+header-img: img/home-bg2.jpg
+email: 916238589@qq.com
+description: "关于iOS开发、swift | iPhone & Mobile Lover | 这里是 @Liyf、李 的个人博客，世界那么大，先到这看看。"
+keyword: "李, Liyf, Li, Liyf Blog, Li Blog, iOS, 博客, 个人网站, 互联网, 移动互联网"
+url: "liyaofeng.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     /u/2872112160?
+# zhihu_username:     huxpro
+github_username:    liyaofeng
+# twitter_username:  huxpro
+# facebook_username:  huxpro
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+# disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: liyf
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+# 	ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+# 	ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# 	ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，看看球赛，聊聊人生。LOL，我要盘盘五杀。"
+sidebar-avatar: /img/avatar-li.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "fflamingogo",
+        href: "http://fflamingogo.xyz/"
+    },
+    {
+	title: "pupboss",
+	href: "https://www.pupboss.com"
+	# 推送
+    },
+    {
+	title: "MarkLin",
+	href: "http://www.jianshu.com/users/8b513c791a38/latest_articles"
+	# coreData
+    },
+    {
+	title: "幽灵雾",
+	href: "http://blog.csdn.net/column/details/superswift.html"
+	# 详细的 coreData 教程
+    }
+]
