@@ -9,8 +9,6 @@ catalog:    true
 tags: 
     - 转载
     - ruby
-    - brew
-    - gem
 ---
 
 > 转载自：[http://alvinhu.com/blog/2013/10/25/brew-gem-rvm-and-bundler/?utm_source=tuicool&utm_medium=referral](http://alvinhu.com/blog/2013/10/25/brew-gem-rvm-and-bundler/?utm_source=tuicool&utm_medium=referral)
