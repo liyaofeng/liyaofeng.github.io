@@ -7,7 +7,6 @@ author:     "Liyf"
 header-img: "img/160420.jpg"
 catalog:    true
 tags: 
-    - 转载
     - ruby
 ---
 
