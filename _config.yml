@@ -125,5 +125,10 @@ friends: [
 	title: "Dolphin Wood",
 	href: "https://idiotwu.me",
 	tips: 前端 > 动画函数 step()
+    },
+    {
+	title: "庞海礁",
+	href: "http://www.olinone.com",
+	tips: collectionview 动画
     }
 ]
