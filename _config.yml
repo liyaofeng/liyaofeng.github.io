@@ -97,6 +97,11 @@ friends: [
 	tips: 大神
     },
     {
+	title: "iOS巍",
+	href: "http://www.jianshu.com/u/83b2d92d89ee",
+	tips: 大神
+    },
+    {
 	title: "珲少",
 	href: "https://my.oschina.net/u/2340880/blog?sort=time&temp=1474164266195",
 	tips: 大神
@@ -105,6 +110,11 @@ friends: [
 	title: "StrongX",
 	href: "http://www.jianshu.com/users/56475732c6e9/latest_articles",
 	tips: 大神、动画
+    },
+    {
+	title: "庞海礁",
+	href: "http://www.olinone.com",
+	tips: collectionview 动画
     },
     {
 	title: "pupboss",
@@ -127,8 +137,8 @@ friends: [
 	tips: 前端 > 动画函数 step()
     },
     {
-	title: "庞海礁",
-	href: "http://www.olinone.com",
-	tips: collectionview 动画
+	title: "iOS程序犭袁",
+	href: "http://www.jianshu.com/u/96a14318a4de",
+	tips: iOS面试题
     }
 ]
