@@ -80,65 +80,60 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-friends: [
-    {
-        title: "fflamingogo",
-        href: "http://fflamingogo.xyz/",
-	tips: 自嘲
-    },
-    {
-  	title: "方一雄",
-	href: "http://iosinit.com",
-	tips: 大神
-    },
-    {
-	title: "王魏",
-	href: "https://onevcat.com/#blog",
-	tips: 大神
-    },
-    {
-	title: "iOS巍",
-	href: "http://www.jianshu.com/u/83b2d92d89ee",
-	tips: 大神
-    },
-    {
-	title: "珲少",
-	href: "https://my.oschina.net/u/2340880/blog?sort=time&temp=1474164266195",
-	tips: 大神
-    },
-    {
-	title: "StrongX",
-	href: "http://www.jianshu.com/users/56475732c6e9/latest_articles",
-	tips: 大神、动画
-    },
-    {
-	title: "庞海礁",
-	href: "http://www.olinone.com",
-	tips: collectionview 动画
-    },
-    {
-	title: "pupboss",
-	href: "https://www.pupboss.com",
-	tips: 推送
-    },
-    {
-	title: "MarkLin",
-	href: "http://www.jianshu.com/users/8b513c791a38/latest_articles",
-	tips: coreData
-    },
-    {
-	title: "幽灵雾",
-	href: "http://blog.csdn.net/column/details/superswift.html",
-	tips: 详细的 coreData 教程
-    },
-    {
-	title: "Dolphin Wood",
-	href: "https://idiotwu.me",
-	tips: 前端 > 动画函数 step()
-    },
-    {
-	title: "iOS程序犭袁",
-	href: "http://www.jianshu.com/u/96a14318a4de",
-	tips: iOS面试题
-    }
-]
+# friends: [
+#     {
+#   	title: "方一雄",
+# 	href: "http://iosinit.com",
+# 	tips: 大神
+#     },
+#     {
+# 	title: "王魏",
+# 	href: "https://onevcat.com/#blog",
+# 	tips: 大神
+#     },
+#     {
+# 	title: "iOS巍",
+# 	href: "http://www.jianshu.com/u/83b2d92d89ee",
+# 	tips: 大神
+#     },
+#     {
+# 	title: "珲少",
+# 	href: "https://my.oschina.net/u/2340880/blog?sort=time&temp=1474164266195",
+# 	tips: 大神
+#     },
+#     {
+# 	title: "StrongX",
+# 	href: "http://www.jianshu.com/users/56475732c6e9/latest_articles",
+# 	tips: 大神、动画
+#     },
+#     {
+# 	title: "庞海礁",
+# 	href: "http://www.olinone.com",
+# 	tips: collectionview 动画
+#     },
+#     {
+# 	title: "pupboss",
+# 	href: "https://www.pupboss.com",
+# 	tips: 推送
+#     },
+#     {
+# 	title: "MarkLin",
+# 	href: "http://www.jianshu.com/users/8b513c791a38/latest_articles",
+# 	tips: coreData
+#     },
+#     {
+# 	title: "幽灵雾",
+# 	href: "http://blog.csdn.net/column/details/superswift.html",
+# 	tips: 详细的 coreData 教程
+#     },
+#     {
+# 	title: "Dolphin Wood",
+# 	href: "https://idiotwu.me",
+# 	tips: 前端 > 动画函数 step()
+#     },
+#     {
+# 	title: "iOS程序犭袁",
+# 	href: "http://www.jianshu.com/u/96a14318a4de",
+# 	tips: iOS面试题
+#     }
+# ]
