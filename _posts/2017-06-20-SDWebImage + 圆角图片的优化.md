@@ -42,6 +42,7 @@ tags:
 3. <code>SDWebImage</code> 请求图片后将该图片转为圆角，同时替换缓存中的图片
 
 为<code>UIImageView</code> 添加类目，实现以下方法
+
     - (void)addCorner:(CGFloat)radius imageUrl:(NSString *)urlStr withPlacholderImage:(NSString *)placholderImage {
         __weak __typeof(&*self) weakSelf = self;
         [[SDImageCache sharedImageCache] queryCacheOperationForKey:urlStr done:^(UIImage * _Nullable image, NSData * _Nullable data, SDImageCacheType cacheType) {
