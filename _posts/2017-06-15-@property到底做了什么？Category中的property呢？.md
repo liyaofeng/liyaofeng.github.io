@@ -48,7 +48,7 @@ tags:
 - 手动实现 getter 和 setter 方法
 - getter 和 setter 方法中操作其他已经定义的属性：
 
-
+<pre>
     @interface UIImageView (SICornerImageView)
     @property (assign, nonatomic) CGFloat height;
     @end
@@ -63,4 +63,6 @@ tags:
         self.bounds = rect;
     }
     @end
+    </pre>
+    
 - 使用 Runtime 添加关联对象
