@@ -38,7 +38,7 @@ tags:
 ***
 #### Category 中的 property
 1. oc 中不允许类在确定后添加成员变量，所以类别中不允许添加成员变量
-- 类别中可以添加成员属性，但是该属性要手动实现 getter 和 setter 方法
+2. 类别中可以添加成员属性，但是该属性要手动实现 getter 和 setter 方法
 
 >- 因为类别中不允许添加成员变量，所以并不会自动添加 <code>@synthesize xxx = _xxx;</code>
 - 因为编译器自动生成的 getter 和 setter 方法中使用了指定的成员变量，所以并不会自动实现 getter 和 setter 方法
