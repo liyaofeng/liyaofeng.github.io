@@ -1,139 +1,79 @@
-# Site settings
-title: Liyf  Blog
-SEOTitle: 李__的博客 | Liyf Blog
-header-img: img/home-bg2.jpg
-email: 916238589@qq.com
-description: "关于iOS开发、swift | iPhone & Mobile Lover | 这里是 @Liyf、李 的个人博客，世界那么大，先到这看看。"
-keyword: "李, Liyf, Li, Liyf Blog, Li Blog, iOS, 博客, 个人网站, 互联网, 移动互联网"
-url: "liyaofeng.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+# Site settings 配置站点
+title: 'Kol.li | a website with liyf'
+description: ''
+keyword: ''
+url: 'https://github.com/liyaofeng/liyaofeng.github.io.git' # your host
 
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
-# SNS settings
-RSS: false
-weibo_username:     /u/2872112160?
-# zhihu_username:     huxpro
-github_username:    liyaofeng
-# twitter_username:  huxpro
-# facebook_username:  huxpro
+# Footer
+footer:
+  since: '2018'
 
+# Author 配置博主信息
+author: 'Kol.li'
+nickname: 'liyf'
+bio: > #two or three lines to describe your site
+    <p>Kolli's blog,  for 2018 💪<br> 🤗🤗🤗</p>
+avatar: '/assets/avatar-li.jpg'
 
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments 评论功能
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: false
+
+# Share
+social-share: false
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站
+# url: email, github
+sns:
+  email: '916238589@qq.com'
+  github: 'https://github.com/liyaofeng'
+
+# Tags 设置标签
+recommend-tags: false # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# Markdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
 
+# RSS
+RSS: false
 
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
 
-# Disqus settings
-# disqus_username: _your_disqus_short_name_
-
-# Duoshuo settings
-duoshuo_username: liyf
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics
-# 	ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-# 	ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# 	ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，看看球赛，聊聊人生。LOL，我要盘盘五杀。"
-sidebar-avatar: /img/avatar-li.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-# friends: [
-#     {
-#   	title: "方一雄",
-# 	href: "http://iosinit.com",
-# 	tips: 大神
-#     },
-#     {
-# 	title: "王魏",
-# 	href: "https://onevcat.com/#blog",
-# 	tips: 大神
-#     },
-#     {
-# 	title: "iOS巍",
-# 	href: "http://www.jianshu.com/u/83b2d92d89ee",
-# 	tips: 大神
-#     },
-#     {
-# 	title: "珲少",
-# 	href: "https://my.oschina.net/u/2340880/blog?sort=time&temp=1474164266195",
-# 	tips: 大神
-#     },
-#     {
-# 	title: "StrongX",
-# 	href: "http://www.jianshu.com/users/56475732c6e9/latest_articles",
-# 	tips: 大神、动画
-#     },
-#     {
-# 	title: "庞海礁",
-# 	href: "http://www.olinone.com",
-# 	tips: collectionview 动画
-#     },
-#     {
-# 	title: "pupboss",
-# 	href: "https://www.pupboss.com",
-# 	tips: 推送
-#     },
-#     {
-# 	title: "MarkLin",
-# 	href: "http://www.jianshu.com/users/8b513c791a38/latest_articles",
-# 	tips: coreData
-#     },
-#     {
-# 	title: "幽灵雾",
-# 	href: "http://blog.csdn.net/column/details/superswift.html",
-# 	tips: 详细的 coreData 教程
-#     },
-#     {
-# 	title: "Dolphin Wood",
-# 	href: "https://idiotwu.me",
-# 	tips: 前端 > 动画函数 step()
-#     },
-#     {
-# 	title: "iOS程序犭袁",
-# 	href: "http://www.jianshu.com/u/96a14318a4de",
-# 	tips: iOS面试题
-#     }
-# ]
+# Plugins
+plugins: [jekyll-paginate]
