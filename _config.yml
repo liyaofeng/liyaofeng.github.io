@@ -2,7 +2,7 @@
 title: 'Kol.li | a website with liyf'
 description: ''
 keyword: ''
-url: 'https://github.com/liyaofeng/liyaofeng.github.io.git' # your host
+url: 'https://github.com/liyaofeng/liyaofeng.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
