@@ -50,7 +50,7 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, github
 sns:
-  email: '916238589@qq.com'
+  email: 'mailto:916238589@qq.com'
   github: 'https://github.com/liyaofeng'
 
 # Tags 设置标签
